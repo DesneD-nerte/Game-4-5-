@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Спрайты\BlackBishop.png" />
+    <None Remove="Спрайты\BlackKing.png" />
+    <None Remove="Спрайты\BlackKnight.png" />
+    <None Remove="Спрайты\BlackPawn.png" />
+    <None Remove="Спрайты\BlackQueen.png" />
+    <None Remove="Спрайты\BlackRook.png" />
+    <None Remove="Спрайты\none.png" />
+    <None Remove="Спрайты\WhiteBishop.png" />
+    <None Remove="Спрайты\WhiteKing.png" />
+    <None Remove="Спрайты\WhiteKnight.png" />
+    <None Remove="Спрайты\WhitePawn.png" />
+    <None Remove="Спрайты\WhiteQueen.png" />
+    <None Remove="Спрайты\WhiteRook.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GameLogic\GameLogic\GameLogic.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Спрайты\BlackBishop.png" />
+    <Resource Include="Спрайты\BlackKing.png" />
+    <Resource Include="Спрайты\BlackKnight.png" />
+    <Resource Include="Спрайты\BlackPawn.png" />
+    <Resource Include="Спрайты\BlackQueen.png" />
+    <Resource Include="Спрайты\BlackRook.png" />
+    <Resource Include="Спрайты\none.png" />
+    <Resource Include="Спрайты\WhiteBishop.png" />
+    <Resource Include="Спрайты\WhiteKing.png" />
+    <Resource Include="Спрайты\WhiteKnight.png" />
+    <Resource Include="Спрайты\WhitePawn.png" />
+    <Resource Include="Спрайты\WhiteQueen.png" />
+    <Resource Include="Спрайты\WhiteRook.png" />
+  </ItemGroup>
+
+</Project>
