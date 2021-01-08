@@ -91,6 +91,10 @@ namespace GameLogic
 
             return (absX == 0 || absX == 1) && (absY == 0 || absY == 1);
         }
+        private bool CanKingMoveAdditional()
+        {
+            return true;
+        }
 
         /// <summary>
         /// Конь способен перемещаться на две единицы по вертикали и на одну единицу по горизонтали и должны
