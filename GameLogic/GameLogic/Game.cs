@@ -18,8 +18,7 @@ namespace GameLogic
         {
             GameProcess,
             Check,
-            CheckMate,
-            FuckOff
+            CheckMate
         }
 
         public Game(string fen, string movecolor, IDisplay display)
