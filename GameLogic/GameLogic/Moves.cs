@@ -86,10 +86,7 @@ namespace GameLogic
         /// </summary>
         private bool CanKingMove()
         {
-            int absX = Math.Abs(fm.From.X - fm.To.X);//Горизонталь
-            int absY = Math.Abs(fm.From.Y - fm.To.Y);//Вертикаль
-
-            return (absX == 0 || absX == 1) && (absY == 0 || absY == 1);
+            return true;
         }
 
         /// <summary>
